@@ -8,11 +8,8 @@ public:
        
 
         for(int i =1;i<nums.size();i++){
-            if(nums[i] - mini <= k ){
-
-            }
-            else{
-                mini = nums[i];
+            if(nums[i] - mini > k ){
+ mini = nums[i];
                 res++;
             }
         }
