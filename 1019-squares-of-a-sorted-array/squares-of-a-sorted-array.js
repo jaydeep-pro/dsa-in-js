@@ -9,7 +9,7 @@ var sortedSquares = function(nums) {
     let e = nums.length-1;
     let i=nums.length -1;
 
-    while(i>=0){
+    while(s <= e){
         if(Math.abs(nums[s]) >= Math.abs(nums[e])){
             arr[i--] = (nums[s]*nums[s]);
             s++;
