@@ -1,5 +1,5 @@
 function containsDuplicate(nums: number[]): boolean {
-    const s = new Set();
+    const s = new Set<number>();
     const n = nums.length;
 
     for(let i =0;i<n;i++){
